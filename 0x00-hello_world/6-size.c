@@ -9,16 +9,15 @@
 */
 
 int main(void)
-{
+{	
 
-		/* sizeof evaluates the size of a variable */
-		printf("Size of a char: %%%lu byte(s) %lu. \n", "size" , "of" , "char" ,1);
-		printf("Size of an int: %%%lu byte(s) %lu. \n", "size" "of" "int" , 4);
-		printf("Size of an double: %%%lu byte(s) %lu. \n", "size", "of", "double",32 );
-		printf("Size of a long int: %%%lu byte(s) %lu .\n", "size", "of", "long int", 4);
-		printf("Size of a long long int: %%%lu byte(s) %lu. \n", "size", "of", "long long", "int", 8);
-		printf("Size of a float: %%%lu byte(s) %lu. \n", "size", "of", "float", 4);
+	int i;
+	double d;
+	char c;
 
-		return (0);
+	printf("the size of an int is; %lu. \n", (unsigned long)sizeof(i));
+	printf("The size of an double is; %lu. \n", (unsigned long)sizeof(d));
+	printf("The size of an char is; %lu. \n" (unsigned long)sizeof(c));
 
+	return(0);
 }
