@@ -8,7 +8,7 @@
  * Return: number of digits
 */
 
-int numlength(int num)
+int numlength(int numlength)
 {
 	int length = 0;
 
