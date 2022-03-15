@@ -10,7 +10,6 @@
 
 int print_sign(int n)
 {
-	int print_sign;
 
 	if (n > 0)
 	{
@@ -27,5 +26,5 @@ int print_sign(int n)
 		_putchar(45 + 0);
 		return (-1);
 	}
-	return (print_sign);
+	return (n);
 }
