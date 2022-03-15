@@ -3,9 +3,9 @@
 /**
  * print_alphabet - utilizes on the _putchar function to print
  *                  the alphbet a - z
- */
+*/
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int ch;
 
