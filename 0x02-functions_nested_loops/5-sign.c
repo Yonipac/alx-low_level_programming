@@ -2,8 +2,7 @@
 
 /**
  * print_sign - print + if n is grater than zero,
- *            0 if n is zero and - if n is less 
- *            than zero.
+ *             0 if n is zero and - if n is less than zero.
  * @n: takes integer type input for function
  *
  * Retun: 1 if +, 0 if 0 and -1 if -
@@ -26,4 +25,5 @@ int print_sign(int n)
 		_putchar(45 + 0);
 		return (-1);
 	}
+	return (0);
 }
