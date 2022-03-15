@@ -10,7 +10,8 @@
 
 int print_sign(int n)
 {
-	int r;
+	int print_sign;
+
 	if (n > 0)
 	{
 		_putchar(43 + 0);
