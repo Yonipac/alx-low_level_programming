@@ -1,11 +1,10 @@
 #include"main.h"
-#include<stdio.h>
 
 /**
- * main - check the code.
- *
+ * _isupper - function that checks for uppercaase character.
+ * @c: int type number
  * Return: Always 0.
- */
+*/
 
 int _isupper(int c)
 {
