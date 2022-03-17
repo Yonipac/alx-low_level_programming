@@ -1,13 +1,12 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_number - prints number from 0 to 9 without using standard function
+ * print_numbers - prints numbers from 0 to 9 without using standard functions
  *
  *
  * Return: void
  */
-
-void print_number(void)
+void print_numbers(void)
 {
 	int c = 48;
 
