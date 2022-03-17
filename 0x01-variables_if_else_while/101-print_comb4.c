@@ -1,47 +1,40 @@
 #include<stdio.h>
 
 /**
- * min - Entry point
- *
- * Description: print all possible different
- * combinations of two digits.
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int digit1 = 0;
-	int digit2, digit3;
+	int d = 48, a = 48, i = 48;
 
-	while (digit1 <= 9)
+	while (d < 58)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		a = 48;
+		while (a < 58)
 		{
-			digit3 = 0;
-			while (digit3 <= 9)
+			i = 48;
+			while (i < 58)
 			{
-				if (digit1  != digit2 &&
-				    digit1 < digit2 &&
-				    digit2 != digit3 &&
-				    digit2 < digit3)
+				if (d != a && a != i && d != i && d < a && a < i)
 				{
-					putchar(digit1 + 48);
-					putchar(digit2 + 48);
-					putchar(digit3 + 48);
-					if (digit1 + digit2 + digit3 != 24)
+					putchar(d);
+					putchar(a);
+					putchar(i);
+					if (!(d == 55 && a == 56 && i == 57))
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				++digit3;
+				i++;
 			}
-			++digit2;
+			a++;
 		}
-		++digit1;
+		d++;
 	}
 	putchar('\n');
+
 	return (0);
 }
