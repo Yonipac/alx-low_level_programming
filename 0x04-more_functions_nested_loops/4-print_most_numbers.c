@@ -9,13 +9,13 @@ include"main.h"
 
 void print_most_numbers(void)
 {
-	int c;
+	int num;
 
-	for (c = 0; c <= 9; ++c)
+	for (num = 0; num <= 9; ++num)
 	{ 
-		if (c == '2' || c == '4')
+		if (num == 2 || num == 4)
 			continue;
-		_putchar(c + 48)
+		_putchar(num + 48)
 	}
 	_putchar('\n');
 }
